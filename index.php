@@ -10,7 +10,7 @@ require_once APP_PATH.'Controller.php';
 require_once APP_PATH.'Model.php';
 require_once APP_PATH.'View.php';
 require_once APP_PATH.'Registro.php';
-
+//saludos
 try {
   Boostrap::run(new Request());  
 } catch (Exception $ex) {
